@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>float 속성_가로배치 레이아웃</title>
+    <style type="text/css">
+       .box1{
+        width:400px; height:100px;
+        background-color:#48cbcb;
+        }
+        
+        .box2{width:400px;
+/*        height:300px;*/
+        background-color: #cb9948;
+        margin-top:10px;
+        margin-bottom:10px;
+/*        overflow:hidden;*/
+        }
+
+        .box2 .boxx .con21{
+            width:150px; height:150px;
+            background-color: #f798ff;
+            float:left;}
+        
+        .box2 .boxx .con22{
+            width:150px; height:150px;
+            background-color: #7d33b4;
+            float:left
+        }
+        .box2 .con23{
+            width:300px; height:150px;
+            background-color: #33b433;
+            }
+        
+        .box3{width:400px; height:100px;
+        background-color: #e354c2;
+        }
+        div .boxx{overflow:hidden;}        
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2">
+       <div class ="boxx">
+        <div class="con21">1</div>
+        <div class="con22">2</div>
+        </div>
+        <div class="con23">3</div>
+    </div>
+    <div class="box3"></div>
+    
+</body>
+</html>
